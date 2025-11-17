@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Playground</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+    <h1 id="page-title">DOM Manipulation Playground</h1>
+    <p id="subtitle">Click the buttons to see the DOM in action!</p>
+
+    <div class="controls">
+        <button id="change-title-btn">Change Title Text</button>
+        <button id="color-btn">Random Background Color</button>
+        <button id="add-card-btn">Add Card</button>
+        <button id="clear-cards-btn">Clear All Cards</button>
+        <button id="add-custom-card-btn">Add Custom Card</button>
+        <button id="change-font-btn">Increase Font Size</button>
+        <button id="title-color-btn">Change Title Color</button>
+        <button id="hide-title-btn">Hide / Show Title</button>
+        <button id="add-border-btn">Add Page Border</button>
+        <button id="subtitle-color-btn">Change Subtitle Color</button>
+    </div>
+
+    <div>
+        <input id="custom-text-input" placeholder="Custom card text" />
+    </div>
+
+    <div id="cards-container"></div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
